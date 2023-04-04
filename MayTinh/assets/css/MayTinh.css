@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+}
+
+.calculator_table{
+    width: 470px;
+    height: 270px;
+}
+
+.calculator-input{
+   padding: 0;
+}
+
+.input-box{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.calculator-button{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    background-color: lightblue;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-2{
+    height: 100%;
+}
+
+.btn{
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
